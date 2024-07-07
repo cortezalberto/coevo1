@@ -1,0 +1,226 @@
+
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Menu",
+      "subCategorias": [
+        {
+          "id": 5,
+          "nombre": "Desayuno"
+        },
+        {
+          "id": 6,
+          "nombre": "Almuerzo"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Cafeteria",
+      "subCategorias": [
+        {
+          "id": 9,
+          "nombre": "Clásicos"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Cocktails",
+      "subCategorias": [
+        {
+          "id": 7,
+          "nombre": "Clásicos"
+        },
+        {
+          "id": 8,
+          "nombre": "Especiales"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Vino por copa",
+      "subCategorias": [
+        {
+          "id": 10,
+          "nombre": "Vino Tinto"
+        }
+      ]
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Panqueques",
+      "categoriaId": 5,
+      "precio": 5.99,
+      "descripcion": "Deliciosos panqueques servidos con miel y frutas frescas.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": ["Gluten", "Lácteos", "Huevos"]
+    },
+    {
+      "id": 2,
+      "nombre": "Cereal con leche",
+      "categoriaId": 5,
+      "precio": 3.49,
+      "descripcion": "Cereal crocante servido con leche fría.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": ["Gluten", "Lácteos"]
+    },
+    {
+      "id": 3,
+      "nombre": "Tostadas",
+      "categoriaId": 5,
+      "precio": 2.99,
+      "descripcion": "Tostadas de pan integral servidas con mantequilla y mermelada.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": ["Gluten"]
+    },
+    {
+      "id": 4,
+      "nombre": "Hamburguesa",
+      "categoriaId": 6,
+      "precio": 7.99,
+      "descripcion": "Jugosa hamburguesa con lechuga, tomate, y queso.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": ["Gluten", "Lácteos"]
+    },
+    {
+      "id": 5,
+      "nombre": "Ensalada",
+      "categoriaId": 6,
+      "precio": 6.49,
+      "descripcion": "Ensalada fresca con una variedad de vegetales y aderezo.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": []
+    },
+    {
+      "id": 6,
+      "nombre": "Sándwich",
+      "categoriaId": 6,
+      "precio": 4.99,
+      "descripcion": "Sándwich de jamón y queso con pan fresco.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": ["Gluten", "Lácteos"]
+    },
+    {
+      "id": 7,
+      "nombre": "Café Espresso",
+      "categoriaId": 2,
+      "precio": 2.99,
+      "descripcion": "Café espresso fuerte y aromático.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": []
+    },
+    {
+      "id": 8,
+      "nombre": "Capuchino",
+      "categoriaId": 2,
+      "precio": 3.49,
+      "descripcion": "Café con leche espumosa y una pizca de cacao.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": ["Lácteos"]
+    },
+    {
+      "id": 9,
+      "nombre": "Latte",
+      "categoriaId": 2,
+      "precio": 3.99,
+      "descripcion": "Café suave con leche cremosa.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": ["Lácteos"]
+    },
+    {
+      "id": 10,
+      "nombre": "Mojito",
+      "categoriaId": 7,
+      "precio": 6.99,
+      "descripcion": "Refrescante cóctel de ron, menta y limón.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": []
+    },
+    {
+      "id": 11,
+      "nombre": "Martini",
+      "categoriaId": 7,
+      "precio": 8.49,
+      "descripcion": "Cóctel elegante con ginebra y vermut.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": []
+    },
+    {
+      "id": 12,
+      "nombre": "Bloody Mary",
+      "categoriaId": 7,
+      "precio": 7.99,
+      "descripcion": "Cóctel picante de vodka y jugo de tomate.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": []
+    },
+    {
+      "id": 13,
+      "nombre": "Piña Colada",
+      "categoriaId": 8,
+      "precio": 7.49,
+      "descripcion": "Cóctel tropical de ron, coco y piña.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": ["Lácteos"]
+    },
+    {
+      "id": 14,
+      "nombre": "Mai Tai",
+      "categoriaId": 8,
+      "precio": 7.99,
+      "descripcion": "Cóctel exótico con ron y cítricos.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": []
+    },
+    {
+      "id": 15,
+      "nombre": "Cosmopolitan",
+      "categoriaId": 8,
+      "precio": 8.99,
+      "descripcion": "Cóctel moderno de vodka, arándano y lima.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": []
+    },
+    {
+      "id": 16,
+      "nombre": "Vino Tinto",
+      "categoriaId": 10,
+      "precio": 9.99,
+      "descripcion": "Vino tinto con cuerpo y sabores complejos.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": []
+    },
+    {
+      "id": 17,
+      "nombre": "Vino Blanco",
+      "categoriaId": 4,
+      "precio": 8.99,
+      "descripcion": "Vino blanco fresco y afrutado.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": []
+    },
+    {
+      "id": 18,
+      "nombre": "Vino Rosado",
+      "categoriaId": 4,
+      "precio": 8.49,
+      "descripcion": "Vino rosado ligero y refrescante.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": []
+    },
+    {
+      "id": 19,
+      "nombre": "Café con Leche",
+      "categoriaId": 9,
+      "precio": 8.49,
+      "descripcion": "Café con leche espumosa y una pizca de cacao.",
+      "imagen": "https://img.freepik.com/free-photo/fried-broccoli-with-garlic-shrimp-thai-food_1150-26470.jpg?t=st=1720217889~exp=1720221489~hmac=9c761e3b4a1c80022d596dd866a426be0035c288e0cf86d9f4c28c8a047e8601&w=1380",
+      "alergenos": []
+    }
+  ]
+}
